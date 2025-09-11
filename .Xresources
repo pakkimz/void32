@@ -28,6 +28,8 @@ xterm*forceBoxChars: false
 xterm*scaleHeight: 1.0
 xterm*limitFontsets: 5
 
+! Need to install xcursor-themes and find it on /usr/share/icons
+xterm*CursorTheme: handhelds
 ! Blink cursor
 *cursorBlink: true
 ! *cursorOffTime: 1000
