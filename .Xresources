@@ -1,0 +1,102 @@
+!https://gitlab.com/protesilaos/dotfiles/-/blob/master/xorg/.Xresources
+
+! Better font rendering
+Xft*antialias: 1
+Xft*rgba: rgb
+Xft*autohint: 0
+Xft*hinting: true
+Xft*hintstyle: hintslight
+Xft*lcdfilter: lcddefault
+
+! Basic settings
+xterm*termName: xterm-256color
+xterm*locale: true
+xterm*utf8: 1
+xterm*utf8Fonts: always
+xterm*dynamicColors: true
+
+! Use a truetype font and size.
+! *faceName: DejaVu Sans Mono:style=Book
+! *faceName: DejaVuSansMono Nerd Font Mono:style=Bold
+! xterm*faceName: Inconsolata Regular Nerd Font Mono:style=Bold
+xterm*faceName: Hack Nerd Font Mono:style=Bold
+xterm*faceSize: 10
+xterm*renderFont: true
+xterm*boldColors: false
+xterm*allowBoldFonts: false
+xterm*forceBoxChars: false
+xterm*scaleHeight: 1.0
+xterm*limitFontsets: 5
+
+! Blink cursor
+*cursorBlink: true
+! *cursorOffTime: 1000
+! *cursorOnTime: 1000
+! *cursorColor: *XtDefaultForeground
+! *cursorColor: reverse
+xterm*cursorBar: true
+xterm*cursorColor: #b0d0f0
+
+! cursor shape when over xterm
+xterm*pointerShape: left_ptr
+
+! Text highlighting
+xterm*highlightReverse: true
+xterm*highlightSelection: true
+xterm*highlightColor: XtDefaultForeground
+xterm*highlightTextColor: XtDefaultBackground
+
+! Remove trailing spaces
+xterm*trimSelection: true
+! By default, 1024 lines are saved.
+xterm.saveLines: 4096
+! The definition of a "word" depends on the character class resource
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+! make alt key works
+xterm*metaSendsEscape: true
+
+! Copy paste clipboard & increase and decrease font
+xterm*Translations: #override \
+  Ctrl Shift <Key> V: insert-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key> C: copy-selection(CLIPBOARD) \n\
+  Ctrl <Key> minus: smaller-vt-font() \n\
+  Ctrl <Key> plus: larger-vt-font() \n\
+  Ctrl <Key> 0: set-vt-font(d) \n\
+  Ctrl Shift <Key> K: scroll-back(1) \n\
+  Ctrl Shift <Key> J: scroll-forw(1)
+
+! https://gist.github.com/mnology/9417744
+#define base00 #0d0c0d
+#define base01 #f2777a
+#define base02 #99cc99
+#define base03 #d2a853
+#define base04 #6699cc
+#define base05 #cc99cc
+#define base06 #66cccc
+#define base07 #ababa4
+#define base08 #515151
+#define base09 #ff5f63
+#define base0A #94ea94
+#define base0B #f0b643
+#define base0C #59a2ea
+#define base0D #ea94ea
+#define base0E #59eaea
+#define base0F #f2f0ec
+*.foreground:   base07
+*.background:   base00
+*.color0:       base00
+*.color1:       base01
+*.color2:       base02
+*.color3:       base03
+*.color4:       base04
+*.color5:       base05
+*.color6:       base06
+*.color7:       base07
+*.color8:       base08
+*.color9:       base09
+*.color10:      base0A
+*.color11:      base0B
+*.color12:      base0C
+*.color13:      base0D
+*.color14:      base0E
+*.color15:      base0F
