@@ -159,10 +159,6 @@ xmap ga <Plug>(EasyAlign)
 nnoremap <silent> <A-;> :CommaOrSemiColon<CR>
 inoremap <silent> <A-;> <esc>:CommaOrSemiColon<CR>a
 
-" vim syntastic
-nnoremap <silent><F5> :SyntasticToggleMode<CR>
-nnoremap <silent><C-s> :<C-u>call ToggleErrors()<CR>
-
 " nerdtree
 nnoremap gn :e .<CR>
 nnoremap gN :e ~/<CR>
