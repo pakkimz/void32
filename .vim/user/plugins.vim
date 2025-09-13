@@ -36,4 +36,7 @@ Plug 'tpope/vim-repeat'                                   " put this on the last
 " Plug 'Yggdroot/indentLine'															" need expandtab to make it works
 " Plug 'gregsexton/MatchTag'
 Plug 'ivalkeen/vim-simpledb', { 'for' : 'sql' }
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
 call plug#end()
