@@ -1,8 +1,0 @@
-Example keybinding
-
-static Key keys[] = {
-	/* ... */
-	{ MODKEY,              XK_i,           view_adjacent,  { .i = +1 } },
-	{ MODKEY,              XK_u,           view_adjacent,  { .i = -1 } },
-	/* ... */
-};
