@@ -3,6 +3,7 @@ xrdb -I$HOME ~/.Xresources
 picom &
 dwmblocks &
 
-# add (ALL ALL=NOPASSWD: /usr/bin/zzz) - in /etc/sudoers
+xss-lock slock &
 xautolock -time 15 -locker "sudo zzz" &
+
 exec dwm
