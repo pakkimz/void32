@@ -64,11 +64,11 @@ vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
 " esc stuffs
-inoremap <C-space> <Esc>`^
-vnoremap <C-space> <Esc>gV
-onoremap <C-space> <Esc>
-cnoremap <C-space> <C-c>
-nnoremap <C-space> <Esc>:noh<CR>
+inoremap <C-@> <Esc>`^
+vnoremap <C-@> <Esc>gV
+onoremap <C-@> <Esc>
+cnoremap <C-@> <C-c>
+nnoremap <C-@> <Esc>:noh<CR>
 
 " increase value resize split defalut 1
 nnoremap <silent><C-w>+ :resize +5<CR>

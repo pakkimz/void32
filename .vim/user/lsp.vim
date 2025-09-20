@@ -14,7 +14,7 @@ let g:lsp_completion_documentation_enabled = 0
 let g:lsp_fold_enabled = 0
 let g:lsp_diagnostics_highlights_enabled = 0
 let g:lsp_diagnostics_signs_insert_mode_enabled = 0
-" let g:lsp_diagnostics_enabled = 0
+let g:lsp_diagnostics_enabled = 0
 
 function! s:on_lsp_buffer_enabled() abort
 	setlocal omnifunc=lsp#complete
