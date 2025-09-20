@@ -63,7 +63,7 @@ vnoremap <silent> y y`]
 vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
-" esc stuffs
+" C-space for st terminal
 inoremap <C-@> <Esc>`^
 vnoremap <C-@> <Esc>gV
 onoremap <C-@> <Esc>
@@ -166,11 +166,11 @@ nnoremap <silent><F2> :NERDTreeFind<CR>
 nnoremap <silent><C-n> :NERDTreeToggle . <Bar>wincmd p<Bar><CR>
 nnoremap <silent><leader>d :bp<cr>:bd #<cr>
 
-" vim-move mapping
-vmap <A-j> <Plug>MoveBlockDown
-vmap <A-k> <Plug>MoveBlockUp
-nmap <A-j> <Plug>MoveLineDown
-nmap <A-k> <Plug>MoveLineUp
+" vim-move mapping (st terminal cannot read alt)
+vmap <C-j> <Plug>MoveBlockDown
+vmap <C-k> <Plug>MoveBlockUp
+nmap <C-j> <Plug>MoveLineDown
+nmap <C-k> <Plug>MoveLineUp
 
 " don't scroll too fast
 nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
