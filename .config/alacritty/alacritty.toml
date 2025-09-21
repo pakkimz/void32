@@ -8,6 +8,12 @@ family = "Hack Nerd Font Mono"
 [cursor]
 style = { shape = "Beam", blinking = "Always" }
 
+[keyboard]
+bindings = [
+  { key="K", mods="Control|Shift", action="ScrollLineUp" },
+  { key="J", mods="Control|Shift", action="ScrollLineDown" }
+]
+
 [colors.primary]
 background = "#0d0c0d"
 foreground = "#ababa4"
