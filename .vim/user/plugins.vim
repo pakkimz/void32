@@ -26,15 +26,11 @@ Plug 'christoomey/vim-titlecase'
 Plug 'junegunn/vim-easy-align'
 Plug 'tommcdo/vim-exchange'															  " exchange word cxiw,cxx,X,cxc
 Plug 'wellle/targets.vim'																  " more powerful ci) ...
-Plug 'lfilho/cosco.vim'																	  " alt+;
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'                                   " put this on the last
-" Plug 'tpope/vim-fugitive'
-" Plug 'Yggdroot/indentLine'															" need expandtab to make it works
-" Plug 'gregsexton/MatchTag'
 Plug 'ivalkeen/vim-simpledb', { 'for' : 'sql' }
 Plug 'prabirshrestha/vim-lsp'
 Plug 'prabirshrestha/asyncomplete.vim'

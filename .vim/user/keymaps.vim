@@ -132,15 +132,6 @@ vnoremap gp "+p
 inoremap <C-a> <Home>
 inoremap <C-f> <right>
 inoremap <C-b> <left>
-inoremap <A-h> <left>
-inoremap <A-l> <right>
-inoremap <A-k> <S-Left>
-inoremap <A-j> <S-Right>
-cnoremap <C-a> <Home>
-cnoremap <A-h> <left>
-cnoremap <A-l> <right>
-cnoremap <A-k> <S-Left>
-cnoremap <A-j> <S-Right>
 
 " vim indentline
 " nnoremap <silent><F9> :IndentLinesToggle<CR>
@@ -154,10 +145,6 @@ nnoremap <silent><F8> :TagbarToggle<CR>
 " vim easy-align
 nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
-
-" vim cosco
-nnoremap <silent> <A-;> :CommaOrSemiColon<CR>
-inoremap <silent> <A-;> <esc>:CommaOrSemiColon<CR>a
 
 " nerdtree
 nnoremap gn :e .<CR>
