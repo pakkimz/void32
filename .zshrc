@@ -1,5 +1,5 @@
-export ZSH="$HOME/.oh-my-zsh"
 export PATH="/home/hiyu/.local/scripts/:$PATH"
+export ZSH="$HOME/.oh-my-zsh"
 export EDITOR=vim
 
 ZSH_THEME="robbyrussell"
@@ -12,3 +12,4 @@ source /usr/share/fzf/key-bindings.zsh
 
 alias config='/usr/bin/git --git-dir=$HOME/.void32 --work-tree=$HOME'
 alias zathura='devour zathura'
+alias sxiv='devour sxiv'
