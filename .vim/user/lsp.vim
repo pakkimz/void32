@@ -36,6 +36,6 @@ augroup lsp_install
 	autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
-imap <A-space> <Plug>(asyncomplete_force_refresh)
+" imap <A-space> <Plug>(asyncomplete_force_refresh)
 inoremap <expr> <C-y> pumvisible() ? asyncomplete#close_popup() : "\<C-y>"
 inoremap <expr> <C-e> pumvisible() ? asyncomplete#cancel_popup() : "\<End>"
