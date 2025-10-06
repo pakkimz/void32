@@ -37,8 +37,6 @@ cnoremap <expr> <c-k> wildmenumode() ? "\<c-p>" : "\<up>"
 " intuitive moving buffer
 nnoremap <C-l> :bnext<CR>
 nnoremap <C-h> :bprevious<CR>
-nnoremap <A-l> :tabnext<CR>
-nnoremap <A-h> :tabprevious<CR>
 
 " add one space
 nnoremap [s i<space><esc>l
